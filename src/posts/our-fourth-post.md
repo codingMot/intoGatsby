@@ -1,5 +1,5 @@
 ---
-path: posts
+path: post4
 date: 2019-09-02T08:59:58.774Z
 title: Our fourth post
 ---
