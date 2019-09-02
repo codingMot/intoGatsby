@@ -4,6 +4,7 @@ module.exports = {
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@Matt`,
     firm: `@Ghostbuilder`,
+    siteUrl: `https://dazzling-gates-1dcde9.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,7 +31,7 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -50,6 +51,8 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-image`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify`,
   ],
 }
