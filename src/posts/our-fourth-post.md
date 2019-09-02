@@ -1,7 +1,7 @@
 ---
-slug: testingPage
+slug: /fourthEntry
 date: 2019-09-02T08:59:58.774Z
-title: Our fourth post v2
+title: Our fourth post v3
 ---
 # Hello
 
